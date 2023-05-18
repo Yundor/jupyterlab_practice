@@ -1,0 +1,20 @@
+name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - conda==23.1.0
+  - setuptools
+  - pip
+  - wheel
+  - conda-content-trust
+  - python.app
+  - jupyterlab
+  - jupyter-book
+  - jupyterlab-spellchecker
+  - pandas
+  - jupyterlab-git
+  - pyppeteer
+  - nb_conda_kernels
+prefix: /Users/xiaqiu/miniconda3
